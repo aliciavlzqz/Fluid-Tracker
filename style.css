@@ -1,0 +1,143 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+    box-sizing: border-box;
+  }
+  
+  /******************************************
+  /* LAYOUT
+  /*******************************************/
+  body{
+    font-family: 'Nonito', sans-serif, 'Roboto';
+  }
+  
+  
+  
+  
+  #whatThisIs{
+    color: blue;
+    background: rgb(115, 212, 245);
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .fluidInfo{
+    background: rgb(115, 212, 245);
+    color: white;
+  }
+  
+  #whatToDo{
+    background: rgb(115, 212, 245);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8em;
+    height: 200px;
+    margin-top: -3%;
+    text-align: center;
+  }
+  
+  .optionList{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .theCup{
+    background: rgb(115, 212, 245);
+    height: 74px;
+    margin-right: 40px;
+    border-radius: 5px;
+    border: solid 3px rgb(3, 61, 81);
+  }
+  
+  .theGlass{
+    background: rgb(115, 212, 245);
+    margin-right: 40px;
+    border-radius: 5px;
+    border: solid 3px rgb(3, 61, 81);
+  }
+  
+  .theBowl{
+    background: rgb(115, 212, 245);
+    margin-right: 40px;
+    border-radius: 5px;
+    border: solid 3px rgb(3, 61, 81);
+  }
+  
+  .theIceCream{
+    background: rgb(115, 212, 245);
+    border-radius: 5px;
+    border: solid 3px rgb(3, 61, 81);
+  }
+  
+  .measureList{
+    color: rgb(115, 212, 245);
+    font-size: 30px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .firstOz{
+    margin-right: 40px;
+    margin-top: -2%;
+  }
+  
+  .secondOz{
+    margin-right: 40px;
+    margin-top: -2%;
+  }
+  
+  .thirdOz{
+    margin-right: 40px;
+    margin-top: -2%;
+  }
+  
+  .fourthOz{
+    margin-top: -2%;
+  }
+  
+  .percentContainer{
+    width: 300px;
+    height: 300px;
+    min-height: 30px;
+    margin-left: 40%;
+    margin-right: 40%;
+    background-color: #a5d7fe;
+    border-radius: 5px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+    color: white;
+    position: relative;
+  }
+  
+  .currentProgress{
+    background-color: #2196f3;
+    position: absolute;
+    width: 300px;
+    bottom: 0;
+    min-height: 30px;
+    margin-left: 40%;
+    margin-right: 40%;
+    transition: .05s ease;
+    
+  }
+  
+  .currentPercent{
+    z-index: 1;
+  }
+  /******************************************
+  /* ADDITIONAL STYLES
+  /*******************************************/
